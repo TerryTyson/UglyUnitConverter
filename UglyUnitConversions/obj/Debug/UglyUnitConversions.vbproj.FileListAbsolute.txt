@@ -1,0 +1,8 @@
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\bin\Debug\UglyUnitConversions.dll
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\bin\Debug\UglyUnitConversions.pdb
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\bin\Debug\UglyUnitConversions.xml
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\obj\Debug\UglyUnitConversions.Resources.resources
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\obj\Debug\UglyUnitConversions.vbproj.GenerateResource.Cache
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\obj\Debug\UglyUnitConversions.dll
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\obj\Debug\UglyUnitConversions.xml
+C:\Users\ttyson\Documents\GitHub\UglyUnitConverter\UglyUnitConversions\obj\Debug\UglyUnitConversions.pdb

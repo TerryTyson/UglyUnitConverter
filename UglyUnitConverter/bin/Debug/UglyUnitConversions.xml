@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UglyUnitConversions
+</name>
+</assembly>
+<members>
+<member name="T:UglyUnitConversions.ValueTemperature.units">
+	<summary>
+ The units currently available for output.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:UglyUnitConversions.ValueTemperature.ValueUnit">
+	<summary>
+ The unit of measure for the value.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:UglyUnitConversions.ValueTemperature.GetValue(UglyUnitConversions.ValueTemperature.units)">
+	<summary>
+ Returns the magintude of the value in the unit given.
+ </summary>
+	<param name="returnUnit">The unit for the return value.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.ValueTemperature">
+	<summary>
+ Class with properties and methods for working with temperature value objects.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.ValueArea.units">
+	<summary>
+ The units currently available for output.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:UglyUnitConversions.ValueArea.ValueUnit">
+	<summary>
+ The unit of measure for the value.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:UglyUnitConversions.ValueArea.GetValue(UglyUnitConversions.ValueArea.units)">
+	<summary>
+ Returns the magintude of the value in the unit given.
+ </summary>
+	<param name="returnUnit">The unit for the return value.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.ValueArea">
+	<summary>
+ Class with properties and methods for working with area value objects.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.ValueLinear.units">
+	<summary>
+ The units currently available for output.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:UglyUnitConversions.ValueLinear.ValueUnit">
+	<summary>
+ The unit of measure for the value.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:UglyUnitConversions.ValueLinear.GetValue(UglyUnitConversions.ValueLinear.units)">
+	<summary>
+ Returns the magintude of the value in the unit given.
+ </summary>
+	<param name="returnUnit">The unit for the return value.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.ValueLinear">
+	<summary>
+ Class with properties and methods for working with linear value objects.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:UglyUnitConversions.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:UglyUnitConversions.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:UglyUnitConversions.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:UglyUnitConversions.Value.ValueMagnitude">
+	<summary>
+ The numeric magnitude of the value.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:UglyUnitConversions.Value">
+	<summary>
+ Class with common properties and methods for working with numeric value objects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
