@@ -1,0 +1,209 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ugly Unit Converter"
+        WindowStartupLocation="CenterScreen"
+        Width="900"
+        Height="400"
+        BorderThickness="0"
+        WindowStyle="SingleBorderWindow"
+        Background="Black">
+    <StackPanel>
+        <Menu IsMainMenu="True" Background="Gray">
+            <MenuItem Header="_Help">
+                <MenuItem Header="Help"/>
+                <MenuItem Header="About" Click="ShowAbout"/>
+            </MenuItem>
+        </Menu>
+        <Grid>
+        <TabControl Background="Black">
+            <TabItem x:Name="tabLinear" Header="Linear" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Inches" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtInches" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Feet" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtFeet" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Yards" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtYards" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Vertical">
+                        <Label Content="Miles" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtMiles" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Millimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtMillimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Centimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtCentimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Decimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtDecimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Meters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtMeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="3" Orientation="Vertical">
+                        <Label Content="Kilometers" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtKilometers" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabArea" Header="Area">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Square Inches" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareInches" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Square Feet" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareFeet" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Square Yards" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareYards" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Vertical">
+                        <Label Content="Square Miles" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareMiles" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Square Millimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareMillimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Square Centimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareCentimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Square Decimeters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareDecimeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Square Meters" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareMeters" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="1" Grid.Column="3" Orientation="Vertical">
+                        <Label Content="Square Kilometers" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSquareKilometers" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Acres" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtAcres" Height="25" Style="{StaticResource TextBoxStyle}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabTemperature" Header="Temperature">
+                <Grid Width="470" HorizontalAlignment="Left">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Fahrenheit" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtFahrenheit" Style="{StaticResource TempTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Celsius" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtCelsius" Style="{StaticResource TempTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Kelvin" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtKelvin" Style="{StaticResource TempTextBoxStyle}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabAngular" Header="Angular">
+                <Grid Width="470" HorizontalAlignment="Left">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Decimal Degrees" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtDecimalDegrees" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Radians" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtRadians" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Mils" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtMils" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Vertical">
+                        <Label Content="Degrees" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtDegrees" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical">
+                        <Label Content="Minutes" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtMinutes" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+                    <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Vertical">
+                        <Label Content="Seconds" Style="{StaticResource LabelStyle}" />
+                        <TextBox x:Name="txtSeconds" Style="{StaticResource AngleTextBoxStyle}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+    </StackPanel>
+    
+</Window>
