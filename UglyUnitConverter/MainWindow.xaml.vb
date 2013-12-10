@@ -33,15 +33,33 @@
         isUpdating = True
         linearValue.ValueMagnitude = givenMagnitude
         linearValue.ValueUnit = givenUnit
-        txtInches.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.inches)
-        txtFeet.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.feet)
-        txtYards.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.yards)
-        txtMiles.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.miles)
-        txtMillimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.millimeters)
-        txtCentimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.centimeters)
-        txtDecimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.decimeters)
-        txtMeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.meters)
-        txtKilometers.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.kilometers)
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.inches Then
+            txtInches.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.inches)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.feet Then
+            txtFeet.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.feet)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.yards Then
+            txtYards.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.yards)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.miles Then
+            txtMiles.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.miles)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.millimeters Then
+            txtMillimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.millimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.centimeters Then
+            txtCentimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.centimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.decimeters Then
+            txtDecimeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.decimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.meters Then
+            txtMeters.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.meters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueLinear.units.kilometers Then
+            txtKilometers.Text = linearValue.GetValue(UglyUnitConversions.ValueLinear.units.kilometers)
+        End If
         isUpdating = False
     End Sub
 
@@ -55,16 +73,36 @@
         isUpdating = True
         areaValue.ValueMagnitude = givenMagnitude
         areaValue.ValueUnit = givenUnit
-        txtSquareInches.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareInches)
-        txtSquareFeet.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareFeet)
-        txtSquareYards.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareYards)
-        txtSquareMiles.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMiles)
-        txtAcres.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.acres)
-        txtSquareMillimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMillimeters)
-        txtSquareCentimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareCentimeters)
-        txtSquareDecimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareDecimeters)
-        txtSquareMeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMeters)
-        txtSquareKilometers.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareKilometers)
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareInches Then
+            txtSquareInches.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareInches)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareFeet Then
+            txtSquareFeet.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareFeet)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareYards Then
+            txtSquareYards.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareYards)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareMiles Then
+            txtSquareMiles.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMiles)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.acres Then
+            txtAcres.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.acres)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareMillimeters Then
+            txtSquareMillimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMillimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareCentimeters Then
+            txtSquareCentimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareCentimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareDecimeters Then
+            txtSquareDecimeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareDecimeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareMeters Then
+            txtSquareMeters.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareMeters)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueArea.units.squareKilometers Then
+            txtSquareKilometers.Text = areaValue.GetValue(UglyUnitConversions.ValueArea.units.squareKilometers)
+        End If
         isUpdating = False
     End Sub
 
@@ -78,9 +116,15 @@
         isUpdating = True
         temperatureValue.ValueMagnitude = givenMagnitude
         temperatureValue.ValueUnit = givenUnit
-        txtFahrenheit.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.fahrenheit)
-        txtCelsius.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.celsius)
-        txtKelvin.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.kelvin)
+        If givenUnit <> UglyUnitConversions.ValueTemperature.units.fahrenheit Then
+            txtFahrenheit.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.fahrenheit)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueTemperature.units.celsius Then
+            txtCelsius.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.celsius)
+        End If
+        If givenUnit <> UglyUnitConversions.ValueTemperature.units.kelvin Then
+            txtKelvin.Text = temperatureValue.GetValue(UglyUnitConversions.ValueTemperature.units.kelvin)
+        End If
         isUpdating = False
     End Sub
 
@@ -90,9 +134,11 @@
     End Sub
     Private Sub txtInches_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtInches.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtInches.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtInches.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(enteredValue) Then
             UpdateLinearTextBoxes(txtInches.Text, UglyUnitConversions.ValueLinear.units.inches)
         End If
     End Sub
@@ -103,9 +149,11 @@
     End Sub
     Private Sub txtFeet_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtFeet.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtFeet.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtFeet.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(enteredValue) Then
             UpdateLinearTextBoxes(txtFeet.Text, UglyUnitConversions.ValueLinear.units.feet)
         End If
     End Sub
@@ -116,9 +164,11 @@
     End Sub
     Private Sub txtYards_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtYards.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtYards.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtYards.Text) Then
             UpdateLinearTextBoxes(txtYards.Text, UglyUnitConversions.ValueLinear.units.yards)
         End If
     End Sub
@@ -129,9 +179,11 @@
     End Sub
     Private Sub txtMiles_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtMiles.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtMiles.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtMiles.Text) Then
             UpdateLinearTextBoxes(txtMiles.Text, UglyUnitConversions.ValueLinear.units.miles)
         End If
     End Sub
@@ -142,9 +194,11 @@
     End Sub
     Private Sub txtMillimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtMillimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtMillimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtMillimeters.Text) Then
             UpdateLinearTextBoxes(txtMillimeters.Text, UglyUnitConversions.ValueLinear.units.millimeters)
         End If
     End Sub
@@ -155,9 +209,11 @@
     End Sub
     Private Sub txtCentimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCentimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtCentimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtCentimeters.Text) Then
             UpdateLinearTextBoxes(txtCentimeters.Text, UglyUnitConversions.ValueLinear.units.centimeters)
         End If
     End Sub
@@ -168,9 +224,11 @@
     End Sub
     Private Sub txtDecimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtDecimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtDecimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtDecimeters.Text) Then
             UpdateLinearTextBoxes(txtDecimeters.Text, UglyUnitConversions.ValueLinear.units.decimeters)
         End If
     End Sub
@@ -181,9 +239,11 @@
     End Sub
     Private Sub txtMeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtMeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtMeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtMeters.Text) Then
             UpdateLinearTextBoxes(txtMeters.Text, UglyUnitConversions.ValueLinear.units.meters)
         End If
     End Sub
@@ -194,9 +254,11 @@
     End Sub
     Private Sub txtKilometers_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtKilometers.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtKilometers.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtKilometers.Text) Then
             UpdateLinearTextBoxes(txtKilometers.Text, UglyUnitConversions.ValueLinear.units.kilometers)
         End If
     End Sub
@@ -207,9 +269,11 @@
     End Sub
     Private Sub txtSquareInches_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareInches.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareInches.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareInches.Text) Then
             UpdateAreaTextBoxes(txtSquareInches.Text, UglyUnitConversions.ValueArea.units.squareInches)
         End If
     End Sub
@@ -220,9 +284,11 @@
     End Sub
     Private Sub txtSquareFeet_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareFeet.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareFeet.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareFeet.Text) Then
             UpdateAreaTextBoxes(txtSquareFeet.Text, UglyUnitConversions.ValueArea.units.squareFeet)
         End If
     End Sub
@@ -233,9 +299,11 @@
     End Sub
     Private Sub txtSquareYards_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareYards.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareYards.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareYards.Text) Then
             UpdateAreaTextBoxes(txtSquareYards.Text, UglyUnitConversions.ValueArea.units.squareYards)
         End If
     End Sub
@@ -246,9 +314,11 @@
     End Sub
     Private Sub txtSquareMiles_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareMiles.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareMiles.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareMiles.Text) Then
             UpdateAreaTextBoxes(txtSquareMiles.Text, UglyUnitConversions.ValueArea.units.squareMiles)
         End If
     End Sub
@@ -259,9 +329,11 @@
     End Sub
     Private Sub txtAcres_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtAcres.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtAcres.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtAcres.Text) Then
             UpdateAreaTextBoxes(txtAcres.Text, UglyUnitConversions.ValueArea.units.acres)
         End If
     End Sub
@@ -272,9 +344,11 @@
     End Sub
     Private Sub txtSquareMillimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareMillimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareMillimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareMillimeters.Text) Then
             UpdateAreaTextBoxes(txtSquareMillimeters.Text, UglyUnitConversions.ValueArea.units.squareMillimeters)
         End If
     End Sub
@@ -285,9 +359,11 @@
     End Sub
     Private Sub txtSquareCentimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareCentimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareCentimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareCentimeters.Text) Then
             UpdateAreaTextBoxes(txtSquareCentimeters.Text, UglyUnitConversions.ValueArea.units.squareCentimeters)
         End If
     End Sub
@@ -298,9 +374,11 @@
     End Sub
     Private Sub txtSquareDecimeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareDecimeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareDecimeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareDecimeters.Text) Then
             UpdateAreaTextBoxes(txtSquareDecimeters.Text, UglyUnitConversions.ValueArea.units.squareDecimeters)
         End If
     End Sub
@@ -311,9 +389,11 @@
     End Sub
     Private Sub txtSquareMeters_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareMeters.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareMeters.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareMeters.Text) Then
             UpdateAreaTextBoxes(txtSquareMeters.Text, UglyUnitConversions.ValueArea.units.squareMeters)
         End If
     End Sub
@@ -324,9 +404,11 @@
     End Sub
     Private Sub txtSquareKilometers_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtSquareKilometers.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtSquareKilometers.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtSquareKilometers.Text) Then
             UpdateAreaTextBoxes(txtSquareKilometers.Text, UglyUnitConversions.ValueArea.units.squareKilometers)
         End If
     End Sub
@@ -337,9 +419,11 @@
     End Sub
     Private Sub txtFahrenheit_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtFahrenheit.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtFahrenheit.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtFahrenheit.Text) Then
             UpdateTemperatureTextBoxes(txtFahrenheit.Text, UglyUnitConversions.ValueTemperature.units.fahrenheit)
         End If
     End Sub
@@ -350,9 +434,11 @@
     End Sub
     Private Sub txtCelsius_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtCelsius.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtCelsius.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtCelsius.Text) Then
             UpdateTemperatureTextBoxes(txtCelsius.Text, UglyUnitConversions.ValueTemperature.units.celsius)
         End If
     End Sub
@@ -363,9 +449,11 @@
     End Sub
     Private Sub txtKelvin_TextChanged(sender As Object, e As TextChangedEventArgs) Handles txtKelvin.TextChanged
         If isUpdating = True Then Exit Sub
-        If Not IsNumeric(txtKelvin.Text) Then
-            Exit Sub
-        Else
+        Dim enteredValue As String = txtYards.Text
+        If Strings.Right(enteredValue, 1) = "." Then
+            enteredValue = enteredValue & 0
+        End If
+        If IsNumeric(txtKelvin.Text) Then
             UpdateTemperatureTextBoxes(txtKelvin.Text, UglyUnitConversions.ValueTemperature.units.kelvin)
         End If
     End Sub
