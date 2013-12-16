@@ -160,7 +160,7 @@
                 </Grid>
             </TabItem>
             <TabItem x:Name="tabAngular" Header="Angular">
-                <Grid Width="470" HorizontalAlignment="Left">
+                <Grid Width="650" HorizontalAlignment="Left">
                     <Grid.RowDefinitions>
                         <RowDefinition />
                         <RowDefinition />

@@ -77,6 +77,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Value.vb" />
+    <Compile Include="ValueAngular.vb" />
     <Compile Include="ValueArea.vb" />
     <Compile Include="ValueLinear.vb" />
     <Compile Include="ValueTemperature.vb" />
